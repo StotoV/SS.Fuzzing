@@ -1,8 +1,0 @@
-version: '3.8'
-
-services:
-  linux:
-    build: ./linux
-    container_name: linux
-    volumes:
-      - ./linux:/app
