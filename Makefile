@@ -1,18 +1,27 @@
 ROOT_DIR:=$(shell pwd | sed 's/ /\\ /g')
+
 .PHONY: build
 
 help:
 	@echo 'Usage: make [TARGET]'
 	@echo 'Targets:'
-	@echo '  build 				build the mpv with the afl compiler'
-	@echo '  run				run afl'
-	@echo '  clean 				clean out the bin dir'
+	@echo '  build 				build the docker container'
+	@echo '  run				run afl in the docker container'
+	@echo '  enter 				enter the docker container'
+	@echo '  stop 				stop the docker container'
+	@echo '  clean 				stop and clean docker volumes'
 
 build:
-	${ROOT_DIR}/build_scripts/build_mpv_macos_afl_fuzzing.sh
+	docker-compose up --build --detach
 
 run:
-	afl-fuzz
+	docker-compose exec afl screen -S afl_running /root/screen.sh
+
+enter:
+	docker-compose exec afl /bin/bash
+
+stop:
+	docker-compose stop
 
 clean:
-	rm -rf ${ROOT_DIR}/bin/
+	docker-compose down

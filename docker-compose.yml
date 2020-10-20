@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  afl:
+    build: .
+    container_name: afl
+    volumes:
+      - ./results:/root/results
+      - ./testcases:/root/testcases
