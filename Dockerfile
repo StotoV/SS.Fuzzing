@@ -50,6 +50,7 @@ RUN pip install --upgrade pip && pip3 install --upgrade pip
 
 # Copy startup script
 COPY ./screen.sh /root/screen.sh
+RUN chmod +x /root/screen.sh
 
 # Install AFL
 RUN git clone https://github.com/mirrorer/afl && \
