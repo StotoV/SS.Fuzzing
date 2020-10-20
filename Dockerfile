@@ -87,4 +87,4 @@ RUN mkdir -p ~/ffmpeg_sources ~/bin && \
    make install && \
    hash -r
 
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+ENTRYPOINT ["/root/screen.sh"]
