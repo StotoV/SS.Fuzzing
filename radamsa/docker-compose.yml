@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  radamsa:
+    build: .
+    container_name: radamsa
+    volumes:
+      - ../results:/root/results
+      - ../testcases:/root/testcases

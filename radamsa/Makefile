@@ -14,7 +14,7 @@ build:
 	docker-compose up --build --detach
 
 enter:
-	docker-compose exec afl /bin/bash
+	docker-compose exec radamsa /bin/bash
 
 stop:
 	docker-compose stop
