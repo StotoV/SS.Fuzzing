@@ -16,38 +16,7 @@ RUN sudo apt-get update -qq && sudo apt-get -y install \
     build-essential \
     cmake \
     git-core \
-    libass-dev \
-    libfreetype6-dev \
-    libsdl2-dev \
-    libtool \
-    libva-dev \
-    libvdpau-dev \
-    libvorbis-dev \
-    libxcb1-dev \
-    libxcb-shm0-dev \
-    libxcb-xfixes0-dev \
-    pkg-config \
-    texinfo \
-    wget \
-    zlib1g-dev \
-    yasm \
-    nasm \
-    libx264-dev \ 
-    libx265-dev \
-    libnuma-dev \
-    libvpx-dev \ 
-    libfdk-aac-dev \ 
-    libmp3lame-dev \ 
-    libopus-dev \
-    python3 \
-    python3-pip \
-    python2.7 \
-    python-pip \
-    screen \
     ffmpeg
-
-# install pip / update
-RUN pip install --upgrade pip && pip3 install --upgrade pip
 
 # Copy startup script
 COPY ./screen.sh /root/screen.sh
