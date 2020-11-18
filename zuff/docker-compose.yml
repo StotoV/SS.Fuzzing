@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  afl:
+  zzuf:
     build: .
-    container_name: afl
+    container_name: zzuf
     volumes:
       - ./results:/root/results
-      - ./testcases:/root/testcases
+      - ../testcases:/root/testcases

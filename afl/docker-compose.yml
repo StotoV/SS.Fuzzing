@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  radamsa:
+  afl:
     build: .
-    container_name: radamsa
+    container_name: afl
     volumes:
       - ./results:/root/results
       - ../testcases:/root/testcases
