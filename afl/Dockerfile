@@ -60,9 +60,9 @@ RUN git clone https://github.com/mirrorer/afl && \
 # Install FFMPEG
 RUN mkdir -p ~/ffmpeg_sources ~/bin && \
     cd ~/ffmpeg_sources && \
-    wget -O ffmpeg-snapshot.tar.bz2 https://ffmpeg.org/releases/ffmpeg-4.1.1.tar.bz2 && \
+    wget -O ffmpeg-snapshot.tar.bz2 https://ffmpeg.org/releases/ffmpeg-4.3.tar.bz2 && \
     tar xjvf ffmpeg-snapshot.tar.bz2 && \
-    cd ffmpeg-4.1.1 && \
+    cd ffmpeg-4.3 && \
     PATH="$HOME/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./configure \
      --cc=afl-gcc \
      --cxx=afl-g++ \
