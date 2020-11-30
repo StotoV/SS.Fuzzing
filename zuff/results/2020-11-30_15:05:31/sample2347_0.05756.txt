@@ -1,0 +1,791 @@
+ffmpeg version 3.4.8-0ubuntu0.2 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+[ea_cdata @ 0x55b80887f4a0] Format ea_cdata detected only with low score of 12, misdetection possible!
+Guessed Channel Layout for Input Stream #0.0 : mono
+Input #0, ea_cdata, from '/root/results/2020-11-30_15:05:31/sample2347_0.05756.mp4':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+    Stream #0:0: Audio: adpcm_ea_xas, 1056 Hz, mono, s16p
+Stream mapping:
+  Stream #0:0 -> #0:0 (adpcm_ea_xas (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, avi, to '/root/results/2020-11-30_15:05:31/sample2347_0.05756.avi':
+  Metadata:
+    ISFT            : Lavf57.83.100
+    Stream #0:0: Audio: mp3 (libmp3lame) (U[0][0][0] / 0x0055), 8000 Hz, mono, s16p
+    Metadata:
+      encoder         : Lavc57.107.100 libmp3lame
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+    Last message repeated 3 times
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 3, current: 1; changing to 4. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 4, current: 0; changing to 5. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 5, current: 1; changing to 6. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 6, current: 0; changing to 7. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 7, current: 1; changing to 8. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 8, current: 1; changing to 9. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 9, current: 0; changing to 10. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 10, current: 1; changing to 11. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 11, current: 0; changing to 12. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 12, current: 1; changing to 13. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 13, current: 1; changing to 14. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 14, current: 0; changing to 15. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 15, current: 1; changing to 16. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 16, current: 0; changing to 17. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 17, current: 1; changing to 18. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 18, current: 1; changing to 19. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 19, current: 0; changing to 20. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 20, current: 1; changing to 21. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 21, current: 0; changing to 22. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 22, current: 1; changing to 23. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 23, current: 1; changing to 24. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 24, current: 2; changing to 25. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 25, current: 1; changing to 26. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 26, current: 0; changing to 27. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 27, current: 1; changing to 28. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 28, current: 1; changing to 29. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 29, current: 2; changing to 30. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 30, current: 1; changing to 31. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 31, current: 0; changing to 32. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 32, current: 1; changing to 33. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 33, current: 1; changing to 34. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 34, current: 2; changing to 35. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 35, current: 1; changing to 36. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 36, current: 0; changing to 37. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 37, current: 1; changing to 38. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 38, current: 1; changing to 39. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 39, current: 2; changing to 40. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 40, current: 1; changing to 41. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 41, current: 0; changing to 42. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 42, current: 1; changing to 43. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 43, current: 1; changing to 44. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 44, current: 2; changing to 45. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 45, current: 1; changing to 46. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 46, current: 0; changing to 47. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 47, current: 1; changing to 48. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 48, current: 1; changing to 49. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 49, current: 2; changing to 50. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 50, current: 1; changing to 51. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 51, current: 0; changing to 52. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 52, current: 1; changing to 53. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 53, current: 1; changing to 54. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 54, current: 2; changing to 55. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 55, current: 1; changing to 56. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 56, current: 2; changing to 57. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 57, current: 1; changing to 58. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 58, current: 1; changing to 59. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 59, current: 2; changing to 60. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 60, current: 1; changing to 61. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 61, current: 2; changing to 62. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 62, current: 1; changing to 63. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 63, current: 1; changing to 64. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 64, current: 2; changing to 65. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 65, current: 1; changing to 66. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 66, current: 2; changing to 67. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 67, current: 1; changing to 68. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 68, current: 1; changing to 69. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 69, current: 2; changing to 70. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 70, current: 1; changing to 71. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 71, current: 2; changing to 72. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 72, current: 1; changing to 73. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 73, current: 1; changing to 74. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 74, current: 2; changing to 75. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 75, current: 1; changing to 76. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 76, current: 2; changing to 77. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 77, current: 1; changing to 78. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 78, current: 1; changing to 79. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 79, current: 2; changing to 80. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 80, current: 1; changing to 81. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 81, current: 2; changing to 82. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 82, current: 1; changing to 83. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 83, current: 1; changing to 84. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 84, current: 2; changing to 85. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 85, current: 1; changing to 86. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 86, current: 2; changing to 87. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 87, current: 1; changing to 88. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 88, current: 2; changing to 89. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 89, current: 2; changing to 90. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 90, current: 1; changing to 91. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 91, current: 2; changing to 92. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 92, current: 1; changing to 93. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 93, current: 2; changing to 94. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 94, current: 2; changing to 95. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 95, current: 1; changing to 96. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 96, current: 2; changing to 97. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 97, current: 1; changing to 98. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 98, current: 2; changing to 99. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 99, current: 2; changing to 100. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 100, current: 1; changing to 101. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 101, current: 2; changing to 102. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 102, current: 1; changing to 103. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 103, current: 2; changing to 104. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 104, current: 2; changing to 105. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 105, current: 1; changing to 106. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 106, current: 2; changing to 107. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 107, current: 1; changing to 108. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 108, current: 2; changing to 109. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 109, current: 2; changing to 110. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 110, current: 1; changing to 111. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 111, current: 2; changing to 112. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 112, current: 1; changing to 113. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 113, current: 2; changing to 114. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 114, current: 1; changing to 115. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 115, current: 1; changing to 116. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 116, current: 2; changing to 117. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 117, current: 1; changing to 118. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 118, current: 2; changing to 119. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+    Last message repeated 1 times
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 119, current: 1; changing to 120. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 120, current: 2; changing to 121. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 121, current: 2; changing to 122. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 122, current: 1; changing to 123. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 123, current: 2; changing to 124. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 124, current: 1; changing to 125. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 125, current: 2; changing to 126. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 126, current: 2; changing to 127. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 127, current: 1; changing to 128. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 128, current: 2; changing to 129. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 129, current: 1; changing to 130. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 130, current: 2; changing to 131. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 131, current: 2; changing to 132. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 132, current: 1; changing to 133. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 133, current: 2; changing to 134. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 134, current: 1; changing to 135. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 135, current: 2; changing to 136. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 136, current: 2; changing to 137. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 137, current: 1; changing to 138. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 138, current: 2; changing to 139. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 139, current: 1; changing to 140. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 140, current: 2; changing to 141. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 141, current: 2; changing to 142. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 142, current: 1; changing to 143. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 143, current: 2; changing to 144. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 144, current: 1; changing to 145. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 145, current: 2; changing to 146. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 146, current: 2; changing to 147. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 147, current: 1; changing to 148. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 148, current: 2; changing to 149. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 149, current: 1; changing to 150. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 150, current: 2; changing to 151. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 151, current: 2; changing to 152. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 152, current: 1; changing to 153. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 153, current: 2; changing to 154. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 154, current: 1; changing to 155. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 155, current: 2; changing to 156. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 156, current: 2; changing to 157. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 157, current: 3; changing to 158. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 158, current: 2; changing to 159. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 159, current: 1; changing to 160. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 160, current: 2; changing to 161. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 161, current: 2; changing to 162. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 162, current: 3; changing to 163. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 163, current: 2; changing to 164. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 164, current: 1; changing to 165. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 165, current: 2; changing to 166. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 166, current: 2; changing to 167. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 167, current: 3; changing to 168. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 168, current: 2; changing to 169. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 169, current: 1; changing to 170. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 170, current: 2; changing to 171. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 171, current: 2; changing to 172. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 172, current: 3; changing to 173. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 173, current: 2; changing to 174. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 174, current: 1; changing to 175. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 175, current: 2; changing to 176. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 176, current: 2; changing to 177. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 177, current: 3; changing to 178. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 178, current: 2; changing to 179. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 179, current: 1; changing to 180. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 180, current: 2; changing to 181. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 181, current: 2; changing to 182. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 182, current: 3; changing to 183. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 183, current: 2; changing to 184. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 184, current: 1; changing to 185. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 185, current: 2; changing to 186. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 186, current: 2; changing to 187. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 187, current: 3; changing to 188. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 188, current: 2; changing to 189. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 189, current: 3; changing to 190. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 190, current: 2; changing to 191. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 191, current: 2; changing to 192. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 192, current: 3; changing to 193. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 193, current: 2; changing to 194. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 194, current: 3; changing to 195. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 195, current: 2; changing to 196. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 196, current: 2; changing to 197. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 197, current: 3; changing to 198. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 198, current: 2; changing to 199. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 199, current: 3; changing to 200. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 200, current: 2; changing to 201. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 201, current: 2; changing to 202. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 202, current: 3; changing to 203. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 203, current: 2; changing to 204. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 204, current: 3; changing to 205. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 205, current: 2; changing to 206. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 206, current: 2; changing to 207. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 207, current: 3; changing to 208. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 208, current: 2; changing to 209. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 209, current: 3; changing to 210. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 210, current: 2; changing to 211. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 211, current: 2; changing to 212. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 212, current: 3; changing to 213. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 213, current: 2; changing to 214. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 214, current: 3; changing to 215. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 215, current: 2; changing to 216. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 216, current: 2; changing to 217. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 217, current: 3; changing to 218. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 218, current: 2; changing to 219. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 219, current: 3; changing to 220. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 220, current: 2; changing to 221. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 221, current: 3; changing to 222. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 222, current: 3; changing to 223. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 223, current: 2; changing to 224. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 224, current: 3; changing to 225. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 225, current: 2; changing to 226. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 226, current: 3; changing to 227. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 227, current: 3; changing to 228. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 228, current: 2; changing to 229. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 229, current: 3; changing to 230. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 230, current: 2; changing to 231. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 231, current: 3; changing to 232. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 232, current: 3; changing to 233. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 233, current: 2; changing to 234. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 234, current: 3; changing to 235. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 235, current: 2; changing to 236. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 236, current: 3; changing to 237. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 237, current: 3; changing to 238. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 238, current: 2; changing to 239. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 239, current: 3; changing to 240. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 240, current: 2; changing to 241. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 241, current: 3; changing to 242. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 242, current: 3; changing to 243. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 243, current: 2; changing to 244. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 244, current: 3; changing to 245. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 245, current: 2; changing to 246. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 246, current: 3; changing to 247. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 247, current: 3; changing to 248. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 248, current: 2; changing to 249. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 249, current: 3; changing to 250. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 250, current: 2; changing to 251. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 251, current: 3; changing to 252. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 252, current: 3; changing to 253. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 253, current: 2; changing to 254. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 254, current: 3; changing to 255. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 255, current: 2; changing to 256. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 256, current: 3; changing to 257. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 257, current: 3; changing to 258. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 258, current: 4; changing to 259. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 259, current: 3; changing to 260. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 260, current: 2; changing to 261. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 261, current: 3; changing to 262. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 262, current: 3; changing to 263. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 263, current: 4; changing to 264. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 264, current: 3; changing to 265. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 265, current: 2; changing to 266. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 266, current: 3; changing to 267. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 267, current: 2; changing to 268. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 268, current: 3; changing to 269. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 269, current: 3; changing to 270. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 270, current: 2; changing to 271. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 271, current: 3; changing to 272. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 272, current: 2; changing to 273. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 273, current: 3; changing to 274. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 274, current: 3; changing to 275. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 275, current: 2; changing to 276. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 276, current: 3; changing to 277. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 277, current: 2; changing to 278. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 278, current: 3; changing to 279. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 279, current: 3; changing to 280. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 280, current: 2; changing to 281. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 281, current: 3; changing to 282. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 282, current: 2; changing to 283. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 283, current: 3; changing to 284. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 284, current: 3; changing to 285. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 285, current: 2; changing to 286. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 286, current: 3; changing to 287. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 287, current: 2; changing to 288. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 288, current: 3; changing to 289. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 289, current: 3; changing to 290. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 290, current: 4; changing to 291. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 291, current: 3; changing to 292. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 292, current: 2; changing to 293. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 293, current: 3; changing to 294. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 294, current: 3; changing to 295. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 295, current: 4; changing to 296. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 296, current: 3; changing to 297. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 297, current: 2; changing to 298. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 298, current: 3; changing to 299. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 299, current: 3; changing to 300. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 300, current: 4; changing to 301. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 301, current: 3; changing to 302. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 302, current: 2; changing to 303. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 303, current: 3; changing to 304. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 304, current: 3; changing to 305. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 305, current: 4; changing to 306. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 306, current: 3; changing to 307. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 307, current: 2; changing to 308. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 308, current: 3; changing to 309. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 309, current: 3; changing to 310. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 310, current: 4; changing to 311. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 311, current: 3; changing to 312. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 312, current: 2; changing to 313. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 313, current: 3; changing to 314. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 314, current: 3; changing to 315. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 315, current: 4; changing to 316. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 316, current: 3; changing to 317. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 317, current: 2; changing to 318. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 318, current: 3; changing to 319. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 319, current: 3; changing to 320. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 320, current: 4; changing to 321. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 321, current: 3; changing to 322. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 322, current: 4; changing to 323. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 323, current: 3; changing to 324. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 324, current: 3; changing to 325. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 325, current: 4; changing to 326. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 326, current: 3; changing to 327. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 327, current: 4; changing to 328. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 328, current: 3; changing to 329. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 329, current: 3; changing to 330. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 330, current: 4; changing to 331. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 331, current: 3; changing to 332. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 332, current: 4; changing to 333. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 333, current: 3; changing to 334. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 334, current: 3; changing to 335. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 335, current: 4; changing to 336. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 336, current: 3; changing to 337. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 337, current: 4; changing to 338. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 338, current: 3; changing to 339. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 339, current: 3; changing to 340. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 340, current: 4; changing to 341. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 341, current: 3; changing to 342. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 342, current: 4; changing to 343. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 343, current: 3; changing to 344. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 344, current: 3; changing to 345. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 345, current: 4; changing to 346. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 346, current: 3; changing to 347. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 347, current: 4; changing to 348. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 348, current: 3; changing to 349. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 349, current: 3; changing to 350. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 350, current: 4; changing to 351. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 351, current: 3; changing to 352. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 352, current: 4; changing to 353. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 353, current: 3; changing to 354. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 354, current: 4; changing to 355. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 355, current: 4; changing to 356. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 356, current: 3; changing to 357. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 357, current: 4; changing to 358. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 358, current: 3; changing to 359. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 359, current: 4; changing to 360. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 360, current: 4; changing to 361. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 361, current: 3; changing to 362. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 362, current: 4; changing to 363. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 363, current: 3; changing to 364. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 364, current: 4; changing to 365. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 365, current: 4; changing to 366. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 366, current: 3; changing to 367. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 367, current: 4; changing to 368. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 368, current: 3; changing to 369. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 369, current: 4; changing to 370. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 370, current: 4; changing to 371. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 371, current: 3; changing to 372. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 372, current: 4; changing to 373. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 373, current: 3; changing to 374. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 374, current: 4; changing to 375. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 375, current: 4; changing to 376. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 376, current: 3; changing to 377. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 377, current: 4; changing to 378. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 378, current: 3; changing to 379. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 379, current: 4; changing to 380. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 380, current: 4; changing to 381. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 381, current: 3; changing to 382. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 382, current: 4; changing to 383. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 383, current: 3; changing to 384. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 384, current: 4; changing to 385. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 385, current: 4; changing to 386. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 386, current: 3; changing to 387. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 387, current: 4; changing to 388. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 388, current: 3; changing to 389. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 389, current: 4; changing to 390. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 390, current: 4; changing to 391. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 391, current: 5; changing to 392. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 392, current: 4; changing to 393. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 393, current: 3; changing to 394. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 394, current: 4; changing to 395. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 395, current: 4; changing to 396. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 396, current: 5; changing to 397. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 397, current: 4; changing to 398. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 398, current: 3; changing to 399. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 399, current: 4; changing to 400. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 400, current: 4; changing to 401. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 401, current: 5; changing to 402. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 402, current: 4; changing to 403. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 403, current: 3; changing to 404. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 404, current: 4; changing to 405. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 405, current: 4; changing to 406. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 406, current: 5; changing to 407. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 407, current: 4; changing to 408. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 408, current: 3; changing to 409. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 409, current: 4; changing to 410. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 410, current: 4; changing to 411. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 411, current: 5; changing to 412. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 412, current: 4; changing to 413. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 413, current: 3; changing to 414. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 414, current: 4; changing to 415. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 415, current: 4; changing to 416. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 416, current: 5; changing to 417. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 417, current: 4; changing to 418. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 418, current: 3; changing to 419. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 419, current: 4; changing to 420. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 420, current: 3; changing to 421. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 421, current: 4; changing to 422. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 422, current: 4; changing to 423. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 423, current: 5; changing to 424. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 424, current: 4; changing to 425. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 425, current: 3; changing to 426. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 426, current: 4; changing to 427. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 427, current: 4; changing to 428. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 428, current: 5; changing to 429. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 429, current: 4; changing to 430. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 430, current: 3; changing to 431. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 431, current: 4; changing to 432. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 432, current: 4; changing to 433. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 433, current: 5; changing to 434. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 434, current: 4; changing to 435. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 435, current: 3; changing to 436. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 436, current: 4; changing to 437. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 437, current: 4; changing to 438. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 438, current: 5; changing to 439. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 439, current: 4; changing to 440. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 440, current: 3; changing to 441. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 441, current: 4; changing to 442. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 442, current: 4; changing to 443. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 443, current: 5; changing to 444. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 444, current: 4; changing to 445. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 445, current: 3; changing to 446. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 446, current: 4; changing to 447. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 447, current: 4; changing to 448. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 448, current: 5; changing to 449. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 449, current: 4; changing to 450. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 450, current: 3; changing to 451. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 451, current: 4; changing to 452. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 452, current: 4; changing to 453. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 453, current: 5; changing to 454. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 454, current: 4; changing to 455. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 455, current: 5; changing to 456. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 456, current: 4; changing to 457. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 457, current: 4; changing to 458. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 458, current: 5; changing to 459. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 459, current: 4; changing to 460. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 460, current: 5; changing to 461. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 461, current: 4; changing to 462. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 462, current: 4; changing to 463. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 463, current: 5; changing to 464. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 464, current: 4; changing to 465. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 465, current: 5; changing to 466. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 466, current: 4; changing to 467. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 467, current: 4; changing to 468. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 468, current: 5; changing to 469. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 469, current: 4; changing to 470. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 470, current: 5; changing to 471. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x55b808884280] Queue input is backward in time
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 471, current: 4; changing to 472. This may result in incorrect timestamps in the output file.
+[adpcm_ea_xas @ 0x55b8088823a0] invalid number of samples in packet
+Error while decoding stream #0:0: Invalid data found when processing input
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 472, current: 4; changing to 473. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 473, current: 5; changing to 474. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 474, current: 4; changing to 475. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 475, current: 5; changing to 476. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 476, current: 4; changing to 477. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 477, current: 4; changing to 478. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 478, current: 5; changing to 479. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 479, current: 4; changing to 480. This may result in incorrect timestamps in the output file.
+[avi @ 0x55b808882b60] Non-monotonous DTS in output stream 0:0; previous: 480, current: 5; changing to 481. This may result in incorrect timestamps in the output file.
+size=      51kB time=00:00:34.70 bitrate=  12.0kbits/s speed= 213x    
+video:0kB audio:34kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 49.621212%

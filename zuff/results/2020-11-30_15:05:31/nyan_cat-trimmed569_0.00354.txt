@@ -1,0 +1,106 @@
+ffmpeg version 3.4.8-0ubuntu0.2 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5632d7b354a0] STSC entry 11 is invalid (first=13 count=2 id=1)
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5632d7b354a0] STSC entry 10 is invalid (first=44 count=1 id=1)
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5632d7b354a0] STSC entry 6 is invalid (first=7 count=1 id=1)
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5632d7b354a0] STSC entry 5 is invalid (first=16390 count=2 id=1)
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5632d7b354a0] STSC entry 4 is invalid (first=5 count=-2147483647 id=536870913)
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5632d7b354a0] wrong sample count
+[aac @ 0x5632d7b37d00] Pulse data corrupt or invalid.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5632d7b354a0] Could not find codec parameters for stream 0 (Video: none, none): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/root/results/2020-11-30_15:05:31/nyan_cat-trimmed569_0.00354.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:00:00.68, start: 0.000000, bitrate: 371 kb/s
+    Stream #0:0(und): Video: none, none, 30k tbr, 30k tbn, 30k tbc
+    Metadata:
+      handler_name    : Core Media Video
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 124 kb/s (default)
+    Metadata:
+      rotate          : 0
+      handler_name    : Core"Media Audio
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+[aac @ 0x5632d7b4c3c0] Pulse data corrupt or invalid.
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Input buffer exhausted before END element found
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] invalid band type
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Input buffer exhausted before END element found
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Number of bands (50) exceeds limit (42).
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Number of bands (51) exceeds limit (43).
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Prediction is not allowed in AAC-LC.
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] If you heard an audible artifact, there may be a bug in the decoder. Clipped noise gain (326 -> 155) is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x5632d7b4c3c0] If you want to help, upload a sample of this file to ftp://upload.ffmpeg.org/incoming/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+[aac @ 0x5632d7b4c3c0] If you heard an audible artifact, there may be a bug in the decoder. Clipped noise gain (328 -> 155) is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x5632d7b4c3c0] If you want to help, upload a sample of this file to ftp://upload.ffmpeg.org/incoming/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+[aac @ 0x5632d7b4c3c0] SSR is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x5632d7b4c3c0] If you want to help, upload a sample of this file to ftp://upload.ffmpeg.org/incoming/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Error while decoding stream #0:1: Not yet implemented in FFmpeg, patches welcome
+[aac @ 0x5632d7b4c3c0] Prediction is not allowed in AAC-LC.
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Number of bands (64) exceeds limit (43).
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Number of bands (13) exceeds limit (12).
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] invalid band type
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Reserved bit set.
+[aac @ 0x5632d7b4c3c0] Prediction is not allowed in AAC-LC.
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Sample rate index in program config element does not match the sample rate index configured by the container.
+[aac @ 0x5632d7b4c3c0] Too large remapped id is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x5632d7b4c3c0] If you want to help, upload a sample of this file to ftp://upload.ffmpeg.org/incoming/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Error while decoding stream #0:1: Not yet implemented in FFmpeg, patches welcome
+[aac @ 0x5632d7b4c3c0] Inconsistent channel configuration.
+[aac @ 0x5632d7b4c3c0] get_buffer() failed
+Error while decoding stream #0:1: Invalid argument
+[aac @ 0x5632d7b4c3c0] Multiple frames in a packet.
+[aac @ 0x5632d7b4c3c0] Reserved bit set.
+[aac @ 0x5632d7b4c3c0] ms_present = 3 is reserved.
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Reserved bit set.
+[aac @ 0x5632d7b4c3c0] Prediction is not allowed in AAC-LC.
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Reserved bit set.
+[aac @ 0x5632d7b4c3c0] ms_present = 3 is reserved.
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x5632d7b4c3c0] Reserved bit set.
+[aac @ 0x5632d7b4c3c0] Number of bands (4) exceeds limit (3).
+Error while decoding stream #0:1: Invalid data found when processing input
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5632d7b354a0] stream 1, offset 0x44f72: partial file
+/root/results/2020-11-30_15:05:31/nyan_cat-trimmed569_0.00354.mp4: Invalid data found when processing input
+Finishing stream 0:0 without any data written to it.
+Output #0, avi, to '/root/results/2020-11-30_15:05:31/nyan_cat-trimmed569_0.00354.avi':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    ISFT            : Lavf57.83.100
+    Stream #0:0(und): Audio: mp3 (libmp3lame) (U[0][0][0] / 0x0055), 44100 Hz, stereo, fltp (default)
+    Metadata:
+      encoder         : Lavc57.107.100 libmp3lame
+      handler_name    : Core"Media Audio
+size=       6kB time=00:00:00.00 bitrate=N/A speed=   0x    
+video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Output file is empty, nothing was encoded (check -ss / -t / -frames parameters if used)
+Conversion failed!

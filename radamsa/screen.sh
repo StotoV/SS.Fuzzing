@@ -11,8 +11,8 @@ for file in /root/testcases/*; do
         for ((i=0;i<=1000;i++))
         do
                 mkdir /root/results/$NOW/cases/$i
-                radamsa -o /root/results/$NOW/cases/$i/test$i.mp4 -n 1 /root/testcases/$FILENAME.mp4
-                ffmpeg -i /root/results/$NOW/cases/$i/test$i.mp4 /root/results/$NOW/cases/$i/output$i.avi 2>> /root/results/$NOW/cases/$i/output$i.txt
+                radamsa -o /root/results/$NOW/cases/$i/test-$FILENAME-$i.mp4 -n 1 /root/testcases/$FILENAME.mp4
+                ffmpeg -i /root/results/$NOW/cases/$i/test-$FILENAME-$i.mp4 /root/results/$NOW/cases/$i/output-$FILENAME-$i.avi 2>> /root/results/$NOW/cases/$i/output-$FILENAME-$i.txt
         done
     fi 
 done

@@ -1,0 +1,100 @@
+ffmpeg version 3.4.8-0ubuntu0.2 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55c8f00b64a0] overread end of atom 'esds' by 2 bytes
+[h264 @ 0x55c8f00b7740] top block unavailable for requested intra mode
+[h264 @ 0x55c8f00b7740] error while decoding MB 10 0, bytestream 55
+[h264 @ 0x55c8f00b7740] concealing 920 DC, 920 AC, 920 MV errors in I frame
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/root/results/2020-11-30_15:05:31/sample278_0.00077.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.45.±00
+  Duration: 00:00:01.02, start: 0.000000, bitrate: 170 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 640x360 [SAR 1:1 DAR 16:9], 557 kb/s, 16409 fps, 16409 tbr, 8401408 tbn, 50 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/24/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 134 kb/s (default)
+    Metadata:
+      rotate          : 0
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/24/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mpeg4 (native))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+[h264 @ 0x55c8f00eb740] top block unavailable for requested intra mode
+[h264 @ 0x55c8f00eb740] error while decoding MB 10 0, bytestream 55
+[h264 @ 0x55c8f00eb740] concealing 920 DC, 920 AC, 920 MV errors in I frame
+[h264 @ 0x55c8f01f1d00] Invalid NAL unit size (262165 > 21).
+[h264 @ 0x55c8f01f1d00] Error splitting the input into NAL units.
+[h264 @ 0x55c8f0261cc0] mmco: unref short failure
+[h264 @ 0x55c8f0261cc0] error while decoding MB 30 9, bytestream -12
+[h264 @ 0x55c8f0261cc0] concealing 579 DC, 579 AC, 579 MV errors in B frame
+[h264 @ 0x55c8f029a160] co located POCs unavailable
+[h264 @ 0x55c8f02d2820] concealing 920 DC, 920 AC, 920 MV errors in P frame
+[h264 @ 0x55c8f02eeb80] concealing 459 DC, 459 AC, 459 MV errors in P frame
+[h264 @ 0x55c8f00eb740] error while decoding MB 21 10, bytestream -7
+[h264 @ 0x55c8f00eb740] concealing 548 DC, 548 AC, 548 MV errors in B frame
+[avi @ 0x55c8f00e1a60] Frame rate very high for a muxer not efficiently supporting it.
+Please consider specifying a lower framerate, a different muxer or -vsync 2
+[h264 @ 0x55c8f0127a20] error while decoding MB 22 12, bytestream -14
+[h264 @ 0x55c8f0127a20] concealing 467 DC, 467 AC, 467 MV errors in P frame
+Error while decoding stream #0:0: Invalid data found when processing input
+Past duration 0.994133 too large
+    Last message repeated 1 times
+Past duration 0.992180 too large
+Past duration 0.999992 too large
+    Last message repeated 1 times
+Past duration 0.998039 too large
+    Last message repeated 1 times
+Past duration 0.996086 too large
+    Last message repeated 1 times
+Finishing stream 0:1 without any data written to it.
+Output #0, avi, to '/root/results/2020-11-30_15:05:31/sample278_0.00077.avi':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    ISFT            : Lavf57.83.100
+    Stream #0:0(und): Video: mpeg4 (FMP4 / 0x34504D46), yuv420p(progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 16409 fps, 600 tbn, 16409 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/24/2020.
+      encoder         : Lavc57.107.100 mpeg4
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(eng): Audio: mp3 (libmp3lame) (U[0][0][0] / 0x0055), 44100 Hz, stereo, fltp (default)
+    Metadata:
+      encoder         : Lavc57.107.100 libmp3lame
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/24/2020.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 0, current: 0; changing to 1. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 1, current: 0; changing to 2. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 2, current: 0; changing to 3. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 3, current: 0; changing to 4. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 4, current: 0; changing to 5. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 5, current: 0; changing to 6. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 6, current: 0; changing to 7. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 7, current: 0; changing to 8. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 8, current: 1; changing to 9. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 9, current: 1; changing to 10. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 10, current: 1; changing to 11. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 11, current: 1; changing to 12. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 12, current: 1; changing to 13. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 13, current: 1; changing to 14. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 14, current: 1; changing to 15. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 15, current: 1; changing to 16. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 16, current: 1; changing to 17. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 17, current: 1; changing to 18. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 18, current: 1; changing to 19. This may result in incorrect timestamps in the output file.
+[avi @ 0x55c8f00e1a60] Non-monotonous DTS in output stream 0:0; previous: 19, current: 1; changing to 20. This may result in incorrect timestamps in the output file.
+frame=   21 fps=0.0 q=31.0 Lsize=      20kB time=00:00:00.03 bitrate=4570.1kbits/s dup=0 drop=3 speed=0.488x    
+video:9kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 111.040741%

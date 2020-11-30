@@ -1,0 +1,155 @@
+ffmpeg version 3.4.8-0ubuntu0.2 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x557de79104a0] sample aspect ratio already set to 4:5, ignoring 'pasp' atom (1:1)
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x557de79104a0] CTTS invalid
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x557de79104a0] overread end of atom 'ctts' by 8 bytes
+[h264 @ 0x557de79117e0] No start code is found.
+    Last message repeated 1 times
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[h264 @ 0x557de79117e0] No start code is found.
+[h264 @ 0x557de79117e0] Error splitting the input into NAL units.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x557de79104a0] decoding for stream 0 failed
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x557de79104a0] Could not find codec parameters for stream 0 (Video: h264 (avc1 / 0x31637661), none, 540x360, 225 kb/s): unspecified pixel format
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/root/results/2020-11-30_15:05:31/nyan_cat-trimmed902_0.00033.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.45.100
+  Duration: 00:00:00.68, start: 0.000000, bitrate: 371 kb/s
+    Stream #0:0(und): Video: h264 (avc1 / 0x31637661), none, 540x360, 225 kb/s, SAR 4:5 DAR 6:5, 29.97 fps, 29.97 tbr, 30k tbn, 60k tbc (default)
+    Metadata:
+      rotate          : 0
+      handler_name    : Core Media Video
+    Side data:
+      displaymatrix: rotation of -0.00 degrees
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 136 kb/s (default)
+    Metadata:
+      rotate          : 0
+      handler_name    : Core Media Audio
+[h264 @ 0x557de79413e0] No start code is found.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mpeg4 (native))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+[h264 @ 0x557de79413e0] No start code is found.
+[h264 @ 0x557de79413e0] Error splitting the input into NAL units.
+[h264 @ 0x557de7959480] No start code is found.
+[h264 @ 0x557de7959480] Error splitting the input into NAL units.
+[h264 @ 0x557de794a020] No start code is found.
+[h264 @ 0x557de794a020] Error splitting the input into NAL units.
+[aac @ 0x557de79158a0] Number of bands (16) exceeds limit (12).
+Error while decoding stream #0:1: Invalid data found when processing input
+[h264 @ 0x557de79d3240] No start code is found.
+[h264 @ 0x557de79d3240] Error splitting the input into NAL units.
+[aac @ 0x557de79158a0] If you heard an audible artifact, there may be a bug in the decoder. Clipped noise gain (-135 -> -100) is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x557de79158a0] If you want to help, upload a sample of this file to ftp://upload.ffmpeg.org/incoming/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+[aac @ 0x557de79158a0] If you heard an audible artifact, there may be a bug in the decoder. Clipped noise gain (-130 -> -100) is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[aac @ 0x557de79158a0] If you want to help, upload a sample of this file to ftp://upload.ffmpeg.org/incoming/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+[aac @ 0x557de79158a0] channel element 2.5 is not allocated
+Error while decoding stream #0:1: Invalid data found when processing input
+[h264 @ 0x557de79ef1c0] No start code is found.
+[h264 @ 0x557de79ef1c0] Error splitting the input into NAL units.
+[h264 @ 0x557de7a0b140] No start code is found.
+[h264 @ 0x557de7a0b140] Error splitting the input into NAL units.
+[h264 @ 0x557de7a27320] No start code is found.
+[h264 @ 0x557de7a27320] Error splitting the input into NAL units.
+[aac @ 0x557de79158a0] Number of bands (55) exceeds limit (43).
+Error while decoding stream #0:1: Invalid data found when processing input
+[h264 @ 0x557de7a43680] No start code is found.
+[h264 @ 0x557de7a43680] Error splitting the input into NAL units.
+[h264 @ 0x557de7a5f9c0] No start code is found.
+[h264 @ 0x557de7a5f9c0] Error splitting the input into NAL units.
+[aac @ 0x557de79158a0] Input buffer exhausted before END element found
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x557de79158a0] Number of bands (47) exceeds limit (43).
+Error while decoding stream #0:1: Invalid data found when processing input
+[h264 @ 0x557de7a7bca0] No start code is found.
+[h264 @ 0x557de7a7bca0] Error splitting the input into NAL units.
+[h264 @ 0x557de7a98000] No start code is found.
+[h264 @ 0x557de7a98000] Error splitting the input into NAL units.
+[h264 @ 0x557de7ab4360] No start code is found.
+[h264 @ 0x557de7ab4360] Error splitting the input into NAL units.
+[h264 @ 0x557de7ad06c0] No start code is found.
+[h264 @ 0x557de7ad06c0] Error splitting the input into NAL units.
+[h264 @ 0x557de7aeca20] No start code is found.
+[h264 @ 0x557de7aeca20] Error splitting the input into NAL units.
+[aac @ 0x557de79158a0] Number of bands (54) exceeds limit (43).
+Error while decoding stream #0:1: Invalid data found when processing input
+[aac @ 0x557de79158a0] invalid band type
+Error while decoding stream #0:1: Invalid data found when processing input
+[h264 @ 0x557de7b08d80] No start code is found.
+[h264 @ 0x557de7b08d80] Error splitting the input into NAL units.
+[h264 @ 0x557de7b250e0] No start code is found.
+[h264 @ 0x557de7b250e0] Error splitting the input into NAL units.
+Error while decoding stream #0:0: Invalid data found when processing input
+[h264 @ 0x557de79413e0] No start code is found.
+[h264 @ 0x557de79413e0] Error splitting the input into NAL units.
+Error while decoding stream #0:0: Invalid data found when processing input
+    Last message repeated 1 times
+[h264 @ 0x557de7959480] No start code is found.
+[h264 @ 0x557de7959480] Error splitting the input into NAL units.
+[aac @ 0x557de79158a0] invalid band type
+Error while decoding stream #0:1: Invalid data found when processing input
+[h264 @ 0x557de794a020] No start code is found.
+[h264 @ 0x557de794a020] Error splitting the input into NAL units.
+Error while decoding stream #0:0: Invalid data found when processing input
+[aac @ 0x557de79158a0] Number of bands (49) exceeds limit (43).
+Error while decoding stream #0:1: Invalid data found when processing input
+Error while decoding stream #0:0: Invalid data found when processing input
+[h264 @ 0x557de79d3240] No start code is found.
+[h264 @ 0x557de79d3240] Error splitting the input into NAL units.
+Error while decoding stream #0:0: Invalid data found when processing input
+    Last message repeated 14 times
+Finishing stream 0:0 without any data written to it.
+Nothing was written into output file 0 (/root/results/2020-11-30_15:05:31/nyan_cat-trimmed902_0.00033.avi), because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0kB time=-577014:32:22.77 bitrate=  -0.0kbits/s speed=N/A    
+video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Output file is empty, nothing was encoded (check -ss / -t / -frames parameters if used)

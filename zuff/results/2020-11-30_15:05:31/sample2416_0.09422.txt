@@ -1,0 +1,82 @@
+ffmpeg version 3.4.8-0ubuntu0.2 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+[m4v @ 0x55e2e836b4a0] Format m4v detected only with low score of 5, misdetection possible!
+[mpeg4 @ 0x55e2e836caa0] illegal chroma format
+[mpeg4 @ 0x55e2e836caa0] only rectangular vol supported
+[mpeg4 @ 0x55e2e836caa0] Gray shape not supported
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 156312 of 171352 before time_increment_resolution
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 156329 of 171352 before fixed_vop_rate
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 171323 of 171352 before time_increment
+[mpeg4 @ 0x55e2e836caa0] time_increment_bits 15 is invalid in relation to the current bitstream, this is likely caused by a missing VOL header
+[mpeg4 @ 0x55e2e836caa0] time_increment_bits set to 16 bits, based on bitstream analysis
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 171340 of 171352 before vop_coded
+[mpeg4 @ 0x55e2e836caa0] illegal chroma format
+[mpeg4 @ 0x55e2e836caa0] only rectangular vol supported
+[mpeg4 @ 0x55e2e836caa0] Gray shape not supported
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 156312 of 171288 before time_increment_resolution
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 156329 of 171288 before fixed_vop_rate
+[mpeg4 @ 0x55e2e836caa0] illegal chroma format
+[mpeg4 @ 0x55e2e836caa0] only rectangular vol supported
+[mpeg4 @ 0x55e2e836caa0] Gray shape not supported
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 156312 of 171352 before time_increment_resolution
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 156329 of 171352 before fixed_vop_rate
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 171323 of 171352 before time_increment
+[mpeg4 @ 0x55e2e836caa0] time_increment_bits 15 is invalid in relation to the current bitstream, this is likely caused by a missing VOL header
+[mpeg4 @ 0x55e2e836caa0] time_increment_bits set to 16 bits, based on bitstream analysis
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 171340 of 171352 before vop_coded
+[mpeg4 @ 0x55e2e836caa0] illegal chroma format
+[mpeg4 @ 0x55e2e836caa0] only rectangular vol supported
+[mpeg4 @ 0x55e2e836caa0] Gray shape not supported
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 156312 of 171288 before time_increment_resolution
+[mpeg4 @ 0x55e2e836caa0] Marker bit missing at 156329 of 171288 before fixed_vop_rate
+[mpeg4 @ 0x55e2e836caa0] header damaged
+[m4v @ 0x55e2e836b4a0] decoding for stream 0 failed
+[m4v @ 0x55e2e836b4a0] Could not find codec parameters for stream 0 (Video: mpeg4, none): unspecified size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Input #0, m4v, from '/root/results/2020-11-30_15:05:31/sample2416_0.09422.mp4':
+  Duration: N/A, start: 1.093489, bitrate: N/A
+    Stream #0:0: Video: mpeg4, none, 30442 tbr, 1200k tbn, 30442 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (mpeg4 (native) -> mpeg4 (native))
+Press [q] to stop, [?] for help
+[mpeg4 @ 0x55e2e838b560] illegal chroma format
+[mpeg4 @ 0x55e2e838b560] only rectangular vol supported
+[mpeg4 @ 0x55e2e838b560] Gray shape not supported
+[mpeg4 @ 0x55e2e838b560] Marker bit missing at 156312 of 171288 before time_increment_resolution
+[mpeg4 @ 0x55e2e838b560] Marker bit missing at 156329 of 171288 before fixed_vop_rate
+[mpeg4 @ 0x55e2e838b560] illegal chroma format
+[mpeg4 @ 0x55e2e838b560] only rectangular vol supported
+[mpeg4 @ 0x55e2e838b560] Gray shape not supported
+[mpeg4 @ 0x55e2e838b560] Marker bit missing at 156312 of 171352 before time_increment_resolution
+[mpeg4 @ 0x55e2e838b560] Marker bit missing at 156329 of 171352 before fixed_vop_rate
+[mpeg4 @ 0x55e2e838b560] Marker bit missing at 171323 of 171352 before time_increment
+[mpeg4 @ 0x55e2e838b560] time_increment_bits 15 is invalid in relation to the current bitstream, this is likely caused by a missing VOL header
+[mpeg4 @ 0x55e2e838b560] time_increment_bits set to 16 bits, based on bitstream analysis
+[mpeg4 @ 0x55e2e838b560] Marker bit missing at 171340 of 171352 before vop_coded
+[mpeg4 @ 0x55e2e838bfc0] Context scratch buffers could not be allocated due to unknown size.
+[mpeg4 @ 0x55e2e838bfc0] illegal chroma format
+[mpeg4 @ 0x55e2e838bfc0] only rectangular vol supported
+[mpeg4 @ 0x55e2e838bfc0] Gray shape not supported
+[mpeg4 @ 0x55e2e838bfc0] Marker bit missing at 156312 of 171288 before time_increment_resolution
+[mpeg4 @ 0x55e2e838bfc0] Marker bit missing at 156329 of 171288 before fixed_vop_rate
+[mpeg4 @ 0x55e2e838bfc0] header damaged
+[mpeg4 @ 0x55e2e8381460] Context scratch buffers could not be allocated due to unknown size.
+Error while decoding stream #0:0: Operation not permitted
+[mpeg4 @ 0x55e2e83a44a0] Context scratch buffers could not be allocated due to unknown size.
+Finishing stream 0:0 without any data written to it.
+Nothing was written into output file 0 (/root/results/2020-11-30_15:05:31/sample2416_0.09422.avi), because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0kB time=-577014:32:22.77 bitrate=  -0.0kbits/s speed=N/A    
+video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Output file is empty, nothing was encoded (check -ss / -t / -frames parameters if used)
+[mpeg4 @ 0x55e2e838b560] Context scratch buffers could not be allocated due to unknown size.
+Conversion failed!

@@ -1,0 +1,97 @@
+ffmpeg version 3.4.8-0ubuntu0.2 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+[ea_cdata @ 0x5594bc42f4a0] Format ea_cdata detected only with low score of 12, misdetection possible!
+Guessed Channel Layout for Input Stream #0.0 : mono
+Input #0, ea_cdata, from '/root/results/2020-11-30_15:05:31/small_movie715_0.06435.mp4':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+    Stream #0:0: Audio: adpcm_ea_xas, 536 Hz, mono, s16p
+Stream mapping:
+  Stream #0:0 -> #0:0 (adpcm_ea_xas (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, avi, to '/root/results/2020-11-30_15:05:31/small_movie715_0.06435.avi':
+  Metadata:
+    ISFT            : Lavf57.83.100
+    Stream #0:0: Audio: mp3 (libmp3lame) (U[0][0][0] / 0x0055), 8000 Hz, mono, s16p
+    Metadata:
+      encoder         : Lavc57.107.100 libmp3lame
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+    Last message repeated 1 times
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 2, current: 0; changing to 3. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 3, current: 1; changing to 4. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 4, current: 2; changing to 5. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 5, current: 3; changing to 6. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 6, current: 1; changing to 7. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 7, current: 2; changing to 8. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 8, current: 3; changing to 9. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 9, current: 0; changing to 10. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 10, current: 1; changing to 11. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 11, current: 2; changing to 12. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 12, current: 0; changing to 13. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 13, current: 1; changing to 14. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 14, current: 2; changing to 15. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 15, current: 3; changing to 16. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 16, current: 1; changing to 17. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 17, current: 2; changing to 18. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 18, current: 3; changing to 19. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 19, current: 0; changing to 20. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 20, current: 1; changing to 21. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 21, current: 2; changing to 22. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 22, current: 0; changing to 23. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 23, current: 1; changing to 24. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 24, current: 2; changing to 25. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 25, current: 3; changing to 26. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 26, current: 1; changing to 27. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 27, current: 2; changing to 28. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 28, current: 3; changing to 29. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 29, current: 0; changing to 30. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 30, current: 1; changing to 31. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 31, current: 2; changing to 32. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 32, current: 0; changing to 33. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 33, current: 1; changing to 34. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 34, current: 2; changing to 35. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 35, current: 3; changing to 36. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 36, current: 1; changing to 37. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 37, current: 2; changing to 38. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 38, current: 3; changing to 39. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 39, current: 1; changing to 40. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 40, current: 2; changing to 41. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 41, current: 3; changing to 42. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 42, current: 0; changing to 43. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Queue input is backward in time
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 43, current: 1; changing to 44. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 44, current: 2; changing to 45. This may result in incorrect timestamps in the output file.
+[adpcm_ea_xas @ 0x5594bc432100] invalid number of samples in packet
+Error while decoding stream #0:0: Invalid data found when processing input
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 45, current: 3; changing to 46. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 46, current: 1; changing to 47. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 47, current: 2; changing to 48. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 48, current: 3; changing to 49. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 49, current: 1; changing to 50. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 50, current: 2; changing to 51. This may result in incorrect timestamps in the output file.
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 51, current: 3; changing to 52. This may result in incorrect timestamps in the output file.
+[libmp3lame @ 0x5594bc434200] Trying to remove 576 samples, but the queue is empty
+[avi @ 0x5594bc432940] Non-monotonous DTS in output stream 0:0; previous: 52, current: 4; changing to 53. This may result in incorrect timestamps in the output file.
+size=      11kB time=00:00:03.88 bitrate=  22.7kbits/s speed= 133x    
+video:0kB audio:4kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 174.107147%

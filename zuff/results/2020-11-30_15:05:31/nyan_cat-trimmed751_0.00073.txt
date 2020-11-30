@@ -1,0 +1,82 @@
+ffmpeg version 3.4.8-0ubuntu0.2 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+[h264 @ 0x55e1773ae7e0] cabac decode of qscale diff failed at 18 3
+[h264 @ 0x55e1773ae7e0] error while decoding MB 18 3, bytestream 3788
+[h264 @ 0x55e1773ae7e0] concealing 711 DC, 711 AC, 711 MV errors in I frame
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55e1773ad4a0] Could not find codec parameters for stream 1 (Audio: none, 0 channels): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/root/results/2020-11-30_15:05:31/nyan_cat-trimmed751_0.00073.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:00:00.68, start: 0.000000, bitrate: 371 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 540x360 [SAR 1:1 DAR 3:2], 225 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : Core Media Video
+    Stream #0:1(und): Audio: none, 0 channels (default)
+    Metadata:
+      handler_name    : Core Media Audio
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mpeg4 (native))
+Press [q] to stop, [?] for help
+[h264 @ 0x55e1773eb920] cabac decode of qscale diff failed at 18 3
+[h264 @ 0x55e1773eb920] error while decoding MB 18 3, bytestream 3788
+[h264 @ 0x55e1773eb920] concealing 711 DC, 711 AC, 711 MV errors in I frame
+[h264 @ 0x55e17743a360] Invalid NAL unit size (117440516 > 1034).
+[h264 @ 0x55e17743a360] Error splitting the input into NAL units.
+[h264 @ 0x55e1773c8ea0] cabac decode of qscale diff failed at 21 11
+[h264 @ 0x55e1773c8ea0] error while decoding MB 21 11, bytestream 68
+[h264 @ 0x55e1773c8ea0] concealing 436 DC, 436 AC, 436 MV errors in P frame
+[h264 @ 0x55e17743b540] Reference 3 >= 2
+[h264 @ 0x55e17743b540] error while decoding MB 17 0, bytestream 32
+[h264 @ 0x55e17743b540] concealing 782 DC, 782 AC, 782 MV errors in B frame
+[h264 @ 0x55e1774c5200] concealing 534 DC, 534 AC, 534 MV errors in P frame
+[h264 @ 0x55e1775197c0] error while decoding MB 11 1, bytestream -14
+[h264 @ 0x55e1775197c0] concealing 782 DC, 782 AC, 782 MV errors in B frame
+[h264 @ 0x55e1774e1400] Reference 5 >= 3
+[h264 @ 0x55e1774e1400] error while decoding MB 23 8, bytestream 520
+[h264 @ 0x55e1774e1400] concealing 536 DC, 536 AC, 536 MV errors in B frame
+[h264 @ 0x55e1775359a0] cabac decode of qscale diff failed at 25 3
+[h264 @ 0x55e1775359a0] error while decoding MB 25 3, bytestream 1296
+[h264 @ 0x55e1775359a0] concealing 704 DC, 704 AC, 704 MV errors in P frame
+[h264 @ 0x55e177551b80] concealing 62 DC, 62 AC, 62 MV errors in B frame
+[h264 @ 0x55e17756dec0] Reference 5 >= 2
+[h264 @ 0x55e17756dec0] error while decoding MB 21 6, bytestream 61
+[h264 @ 0x55e17756dec0] concealing 606 DC, 606 AC, 606 MV errors in B frame
+[h264 @ 0x55e17758a1a0] Reference 6 >= 4
+[h264 @ 0x55e17758a1a0] error while decoding MB 31 0, bytestream 1312
+[h264 @ 0x55e17758a1a0] concealing 782 DC, 782 AC, 782 MV errors in P frame
+[h264 @ 0x55e1775c2860] mmco: unref short failure
+[h264 @ 0x55e1775a6500] concealing 601 DC, 601 AC, 601 MV errors in B frame
+[h264 @ 0x55e1775c2860] concealing 456 DC, 456 AC, 456 MV errors in B frame
+[h264 @ 0x55e1773eb920] left block unavailable for requested intra mode
+[h264 @ 0x55e1773eb920] error while decoding MB 0 9, bytestream 71
+[h264 @ 0x55e1773eb920] concealing 525 DC, 525 AC, 525 MV errors in P frame
+Error while decoding stream #0:0: Invalid data found when processing input
+Output #0, avi, to '/root/results/2020-11-30_15:05:31/nyan_cat-trimmed751_0.00073.avi':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    ISFT            : Lavf57.83.100
+    Stream #0:0(und): Video: mpeg4 (FMP4 / 0x34504D46), yuv420p, 540x360 [SAR 1:1 DAR 3:2], q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : Core Media Video
+      encoder         : Lavc57.107.100 mpeg4
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+Past duration 0.999992 too large
+    Last message repeated 7 times
+frame=   17 fps=0.0 q=3.7 Lsize=      55kB time=00:00:00.66 bitrate= 671.9kbits/s dup=0 drop=1 speed=6.46x    
+video:49kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 12.551208%

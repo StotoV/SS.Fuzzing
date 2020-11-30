@@ -1,0 +1,245 @@
+ffmpeg version 3.4.8-0ubuntu0.2 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5629567504a0] Broken file, trak/mdat not at top-level
+[h264 @ 0x562956751760] illegal aspect ratio
+[h264 @ 0x562956751760] SPS decoding failure, trying again after escaping the NAL
+[h264 @ 0x562956751760] illegal aspect ratio
+[h264 @ 0x562956751760] sps_id 0 out of range
+[h264 @ 0x562956751760] SPS decoding failure, trying again after escaping the NAL
+[h264 @ 0x562956751760] sps_id 0 out of range
+[h264 @ 0x562956756f80] illegal aspect ratio
+[h264 @ 0x562956756f80] SPS decoding failure, trying again after escaping the NAL
+[h264 @ 0x562956756f80] illegal aspect ratio
+[h264 @ 0x562956756f80] sps_id 0 out of range
+[h264 @ 0x562956756f80] SPS decoding failure, trying again after escaping the NAL
+[h264 @ 0x562956756f80] sps_id 0 out of range
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[h264 @ 0x562956751760] non-existing PPS 0 referenced
+[h264 @ 0x562956751760] decode_slice_header error
+[h264 @ 0x562956751760] no frame!
+[h264 @ 0x562956756f80] non-existing PPS 0 referenced
+[h264 @ 0x562956756f80] decode_slice_header error
+[h264 @ 0x562956756f80] no frame!
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5629567504a0] decoding for stream 0 failed
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5629567504a0] decoding for stream 1 failed
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5629567504a0] Could not find codec parameters for stream 0 (Video: h264 (avc1 / 0x31637661), none, 540x360, 225 kb/s): unspecified pixel format
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5629567504a0] Could not find codec parameters for stream 1 (Video: h264 (avc1 / 0x31637661), none, 540x360, 225 kb/s): unspecified pixel format
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/root/results/2020-11-30_15:09:44/cases/577/test-nyan_cat-trimmed-577.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:00:00.68, start: 0.000000, bitrate: 382 kb/s
+    Stream #0:0(und): Video: h264 (avc1 / 0x31637661), none, 540x360, 225 kb/s, SAR 1:1 DAR 3:2, 29.97 fps, 29.97 tbr, 30k tbn, 60k tbc (default)
+    Metadata:
+      handler_name    : Core Media Video
+    Stream #0:1(und): Video: h264 (avc1 / 0x31637661), none, 540x360, 225 kb/s, SAR 1:1 DAR 3:2, 29.97 fps, 29.97 tbr, 30k tbn, 60k tbc (default)
+    Metadata:
+      handler_name    : Core Media Video
+[h264 @ 0x56295679bca0] illegal aspect ratio
+[h264 @ 0x56295679bca0] SPS decoding failure, trying again after escaping the NAL
+[h264 @ 0x56295679bca0] illegal aspect ratio
+[h264 @ 0x56295679bca0] sps_id 0 out of range
+[h264 @ 0x56295679bca0] SPS decoding failure, trying again after escaping the NAL
+[h264 @ 0x56295679bca0] sps_id 0 out of range
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mpeg4 (native))
+Press [q] to stop, [?] for help
+[h264 @ 0x56295679bca0] non-existing PPS 0 referenced
+[h264 @ 0x56295679bca0] decode_slice_header error
+[h264 @ 0x56295679bca0] no frame!
+[h264 @ 0x5629567a1080] non-existing PPS 0 referenced
+[h264 @ 0x5629567a1080] decode_slice_header error
+[h264 @ 0x5629567a1080] no frame!
+[h264 @ 0x562956800540] non-existing PPS 0 referenced
+[h264 @ 0x562956800540] decode_slice_header error
+[h264 @ 0x562956800540] no frame!
+[h264 @ 0x56295681c4c0] non-existing PPS 0 referenced
+[h264 @ 0x56295681c4c0] decode_slice_header error
+[h264 @ 0x56295681c4c0] no frame!
+[h264 @ 0x562956838440] non-existing PPS 0 referenced
+[h264 @ 0x562956838440] decode_slice_header error
+[h264 @ 0x562956838440] no frame!
+[h264 @ 0x5629568543c0] non-existing PPS 0 referenced
+[h264 @ 0x5629568543c0] decode_slice_header error
+[h264 @ 0x5629568543c0] no frame!
+[h264 @ 0x562956870340] non-existing PPS 0 referenced
+[h264 @ 0x562956870340] decode_slice_header error
+[h264 @ 0x562956870340] no frame!
+[h264 @ 0x56295688c2c0] non-existing PPS 0 referenced
+[h264 @ 0x56295688c2c0] decode_slice_header error
+[h264 @ 0x56295688c2c0] no frame!
+[h264 @ 0x5629568a8240] non-existing PPS 0 referenced
+[h264 @ 0x5629568a8240] decode_slice_header error
+[h264 @ 0x5629568a8240] no frame!
+[h264 @ 0x5629568c41c0] non-existing PPS 0 referenced
+[h264 @ 0x5629568c41c0] decode_slice_header error
+[h264 @ 0x5629568c41c0] no frame!
+[h264 @ 0x5629568e0140] non-existing PPS 0 referenced
+[h264 @ 0x5629568e0140] decode_slice_header error
+[h264 @ 0x5629568e0140] no frame!
+[h264 @ 0x5629568fc280] non-existing PPS 0 referenced
+[h264 @ 0x5629568fc280] decode_slice_header error
+[h264 @ 0x5629568fc280] no frame!
+[h264 @ 0x562956918460] non-existing PPS 0 referenced
+[h264 @ 0x562956918460] decode_slice_header error
+[h264 @ 0x562956918460] no frame!
+[h264 @ 0x5629569347c0] non-existing PPS 0 referenced
+[h264 @ 0x5629569347c0] decode_slice_header error
+[h264 @ 0x5629569347c0] no frame!
+[h264 @ 0x562956950b20] non-existing PPS 0 referenced
+[h264 @ 0x562956950b20] decode_slice_header error
+[h264 @ 0x562956950b20] no frame!
+Error while decoding stream #0:0: Invalid data found when processing input
+[h264 @ 0x56295696ce60] non-existing PPS 0 referenced
+[h264 @ 0x56295696ce60] decode_slice_header error
+[h264 @ 0x56295696ce60] no frame!
+Error while decoding stream #0:0: Invalid data found when processing input
+[h264 @ 0x56295679bca0] non-existing PPS 0 referenced
+[h264 @ 0x56295679bca0] decode_slice_header error
+[h264 @ 0x56295679bca0] no frame!
+Error while decoding stream #0:0: Invalid data found when processing input
+[h264 @ 0x5629567a1080] non-existing PPS 0 referenced
+[h264 @ 0x5629567a1080] decode_slice_header error
+[h264 @ 0x5629567a1080] no frame!
+Error while decoding stream #0:0: Invalid data found when processing input
+[h264 @ 0x562956800540] non-existing PPS 0 referenced
+[h264 @ 0x562956800540] decode_slice_header error
+[h264 @ 0x562956800540] no frame!
+Error while decoding stream #0:0: Invalid data found when processing input
+[h264 @ 0x56295681c4c0] non-existing PPS 0 referenced
+[h264 @ 0x56295681c4c0] decode_slice_header error
+[h264 @ 0x56295681c4c0] no frame!
+Error while decoding stream #0:0: Invalid data found when processing input
+    Last message repeated 14 times
+Finishing stream 0:0 without any data written to it.
+Nothing was written into output file 0 (/root/results/2020-11-30_15:09:44/cases/577/output-nyan_cat-trimmed-577.avi), because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0kB time=-577014:32:22.77 bitrate=  -0.0kbits/s speed=N/A    
+video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Output file is empty, nothing was encoded (check -ss / -t / -frames parameters if used)
+Conversion failed!
