@@ -4,6 +4,9 @@ services:
   afl:
     build: .
     container_name: afl
+    privileged: true
+    environment:
+      - SLAVES=12
     volumes:
       - ./results:/root/results
       - ../testcases:/root/testcases
